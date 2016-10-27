@@ -1,0 +1,4 @@
+graft minecraft_py/Malmo/Minecraft
+graft minecraft_py/Malmo/Mod
+graft minecraft_py/Malmo/Python_Examples
+graft minecraft_py/Malmo/Schemas
