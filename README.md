@@ -2,6 +2,8 @@
 
 Python wrapper for [Malmö](https://github.com/Microsoft/malmo), a platform for Artificial Intelligence experimentation and research built on top of Minecraft.
 
+**NB! This is a precompiled version for Python 3.4 under Ubuntu 14.04.** 
+
 ## Installation
 
 1. Install the dependencies for your OS: [Windows](https://github.com/Microsoft/malmo/blob/master/doc/install_windows.md), [Linux](https://github.com/Microsoft/malmo/blob/master/doc/install_linux.md), [MacOSX](https://github.com/Microsoft/malmo/blob/master/doc/install_macosx.md). You can skip Torch, Mono and ALE parts.
@@ -36,7 +38,3 @@ minecraft_py.stop(proc)
  * `stop(proc)` - stops Minecraft started previously with `start()`. Sends `SIGTERM` to entire process group.
  
 In addition it adds `MalmoPython` module to `PYTHONPATH` that can be used to communicate with Minecraft process. `MalmoPython` API follows the [Malmo C++ API](http://microsoft.github.io/malmo/0.17.0/Documentation/annotated.html). You can also check the [tutorial](http://microsoft.github.io/malmo/0.17.0/Python_Examples/Tutorial.pdf) and [examples](https://github.com/Microsoft/malmo/tree/master/Malmo/samples/Python_examples).
-
-## Known issues
-
- * Python 3 is not supported as Microsoft doesn't provide precompiled binaries for Python 3.
