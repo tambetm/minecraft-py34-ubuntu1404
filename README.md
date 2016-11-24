@@ -16,8 +16,6 @@ cd minecraft-py
 pip install -e .
 ```
 
-  Installation automatically downloads the appropriate Malmo version and unzips it to package directory.
-
 3. To precompile Minecraft classes so that subsequent starts will be faster run following snippet:
   ```
 import logging
